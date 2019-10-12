@@ -12,7 +12,7 @@ import math
 
 bl_info = {
     "name": "io-Export to Autodesk Maya curves",
-    "author": "Mario Baldi, Biki (port to 2.8)",
+    "author": "Mario Baldi, Biki (port to 2.80)",
     "blender": (2,80,0),
     "location": "File > Import-Export",
     "description": "Import-Export ma, curves" ,
