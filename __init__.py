@@ -285,7 +285,7 @@ class ExportCurvesToMaya(bpy.types.Operator, ExportHelper):
 def menu_func_export(self, context):
     self.layout.operator(ExportCurvesToMaya.bl_idname, text="Maya curves (.ma)")
 
-classes = (ExportCurvesToMaya)
+classes = (ExportCurvesToMaya,)
 
 def register():
     for cls in classes:
